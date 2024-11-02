@@ -1,1 +1,20 @@
-# HTML-CSS-Practice-Leon
+# HTML and CSS Practice - Leon PSD Template
+
+This project is a practice exercise in HTML and CSS based on the "Leon" PSD template. It's focused on mastering layout structures, styling techniques, and responsive design practices.
+
+## Sections Completed
+
+- **Header**: Completed layout and basic styling.
+
+## Purpose
+
+The goal of this project is to improve HTML and CSS skills by replicating a professional template. Key concepts practiced include:
+- Semantic HTML structure
+- Responsive design adjustments
+- Flexbox and Grid layouts
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/HTML-CSS-Practice-Leon.git
