@@ -1,5 +1,6 @@
-:root{
+:root {
   --primary-color: #10cab7;
+  --secondary-color: #2c4755;
 }
 
 /* Start Global Rules */
@@ -140,7 +141,7 @@ body {
 }
 
 .landing .intro-text p {
-  color: #2c4755;
+  color: var(--secondary-color);
   font-size: 17px;
   line-height: 1.5;
   margin: 0;
@@ -148,6 +149,41 @@ body {
 }
 
 /* End Landing */
+
+/* Start Features */
+.features {
+  padding: 60px 0;
+  background-color: #f6f6f6;
+}
+
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.features .feature {
+  padding: 20px;
+  text-align: center;
+}
+
+.features .feature i {
+  color: var(--primary-color);
+}
+
+.features .feature h3 {
+  font-weight: 800;
+  color: var(--secondary-color);
+  margin: 30px 0;
+}
+
+.features .feature p {
+  color: #626262;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* End Features */
 
 /* Small */
 
