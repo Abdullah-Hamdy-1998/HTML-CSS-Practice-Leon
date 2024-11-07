@@ -219,7 +219,7 @@ body {
 
 /* Start Services */
 .services {
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 .services .services-content {
@@ -290,10 +290,10 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .services .services-content .image{
+  .services .services-content .image {
     display: none;
   }
-  
+
 }
 
 /* End Services */

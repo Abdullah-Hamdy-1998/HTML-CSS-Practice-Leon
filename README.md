@@ -5,6 +5,9 @@ This project is a practice exercise in HTML and CSS based on the "Leon" PSD temp
 ## Sections Completed
 
 - **Header**: Completed layout and basic styling.
+- **Landing Banner**: Completed layout and basic styling.
+- **Features**: Completed layout and basic styling.
+- **Services**: Completed layout and basic styling.
 
 ## Purpose
 
