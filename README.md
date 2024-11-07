@@ -15,9 +15,3 @@ The goal of this project is to improve HTML and CSS skills by replicating a prof
 - Semantic HTML structure
 - Responsive design adjustments
 - Flexbox and Grid layouts
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/HTML-CSS-Practice-Leon.git
