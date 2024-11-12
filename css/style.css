@@ -370,12 +370,25 @@ body {
 .about .image::before {
   content: '';
   position: absolute;
+  top: -40px;
+  left: -15px;
   width: 100px;
-  height: 100%;
-  background-color: black;
+  height: calc(100% + 80px);
+  background-color: #ebebeb;
+  z-index: -1;
 }
 
-.about .image::after {}
+.about .image::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 300px;
+  top: -40px;
+  right: -150px;
+  border-bottom: 80px solid var(--primary-color);
+  border-left: 80px solid var(--primary-color);
+  z-index: -1;
+}
 
 /* Small */
 
