@@ -350,12 +350,12 @@ body {
 
 /* End Portfolio */
 .about {
-  padding: var(--section-padding) 0 calc(var(--section-padding) + 60px);
+  padding: var(--section-padding) 0 calc(var(--section-padding) + 15px);
 }
 
 @media (max-width: 992px) {
   .about {
-    padding: var(--section-padding) 0;
+    padding: calc(var(--section-padding) - 36px) 0;
   }
 }
 
