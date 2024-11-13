@@ -349,6 +349,8 @@ body {
 }
 
 /* End Portfolio */
+
+/* Start About */
 .about {
   padding: var(--section-padding) 0 calc(var(--section-padding) + 15px);
 }
@@ -381,7 +383,7 @@ body {
 
 @media (max-width: 992px) {
   .about .image {
-    margin: 50px 0 25px;
+    margin: 25px 0;
   }
 }
 
@@ -452,6 +454,96 @@ body {
   line-height: 2;
   color: #575757;
 }
+
+/* End About */
+
+/* Start Contact */
+
+.contact {
+  padding: var(--section-padding) 0;
+  background-color: var(--special-color);
+}
+
+.contact .info {
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .contact .info {
+    text-align: center;
+  }
+}
+
+.contact .label {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: var(--secondary-color);
+  margin: 0 0 15px;
+}
+
+@media (max-width: 768px) {
+  .contact .label {
+    font-size: 30px;
+    padding: 0;
+  }
+}
+
+.contact .link {
+  display: block;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding-left: 30px;
+  margin: 0 0 20px;
+}
+
+@media (max-width: 768px) {
+  .contact .link {
+    font-size: 30px;
+    padding: 0;
+  }
+}
+
+.contact .social {
+  display: flex;
+  padding-left: 60px;
+  color: #334752;
+  gap: 20px;
+  letter-spacing: -1px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .contact .social {
+    padding: 0;
+    width: fit-content;
+  }
+}
+
+/* End Contact */
+
+/* Start Footer */
+.footer {
+  display: flex;
+  background-color: var(--secondary-color);
+}
+
+.footer p {
+  font-weight: 800;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.footer span {
+  color: var(--primary-color);
+}
+
+/* End Footer */
 
 /* Small */
 
