@@ -10,6 +10,8 @@ This project is a practice exercise in HTML and CSS based on the "Leon" PSD temp
 - **Services**: Completed layout and basic styling.
 - **Portfolio**: Completed layout and basic styling.
 - **About**: Completed layout and basic styling.
+- **Contact**: Completed layout and basic styling.
+- **Footer**: Completed layout and basic styling.
 
 ## Purpose
 
